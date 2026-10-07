@@ -1,47 +1,44 @@
-// Crossy Road : ton code va dans ces fonctions, le moteur les appelle pour toi.
-
-// ------------------------------------------
-// ÉTAPE 1 : Pose ta poule
-// ------------------------------------------
+// Dessine ta poule sur l'écran.
+// Le jeu l'appelle à chaque image.
 function drawPlayer() {
-    // >>> Écris ton code ici <<<
+  // ETAPE 3.1
+
 }
 
-// ------------------------------------------
-// ÉTAPE 2 : Saute au clavier
-// ÉTAPE 3 : Va à gauche et à droite
-// ------------------------------------------
+// Le jeu l'appelle quand tu appuies sur une flèche du clavier.
+// Le paramètre direction dit laquelle.
 function onKey(direction) {
-    // >>> Écris ton code ici <<<
+  // ETAPE 3.2
+
+  // ETAPE 3.3
+
 }
 
-// ------------------------------------------
-// ÉTAPE 4 : Invente les rangées
-// ------------------------------------------
+// Choisit le type de chaque rangée : herbe, route ou rivière.
+// Le jeu l'appelle pour chaque rangée qu'il construit.
 function laneType(row) {
-    // >>> Écris ton code ici <<<
+  // ETAPE 3.4
 
-    // Valeur par défaut : renvoyée si ton code ne répond rien.
-    return 'grass';
+  return 'grass';
 }
 
-// ------------------------------------------
-// ÉTAPE 5 : Fais rouler les voitures
-// ------------------------------------------
+// Fait avancer une voiture.
+// Le jeu l'appelle à chaque image, pour chaque voiture.
 function updateCar(car) {
-    // >>> Écris ton code ici <<<
+  // ETAPE 3.5
+
 }
 
-// ------------------------------------------
-// ÉTAPE 6 : Splatch !
-// ------------------------------------------
+// Regarde si ta poule touche une voiture.
+// Le jeu l'appelle à chaque image, pour chaque voiture.
 function checkCollision(car) {
-    // >>> Écris ton code ici <<<
+  // ETAPE 3.6
+
 }
 
-// ------------------------------------------
-// ÉTAPE 7 : Personnalise ton jeu
-// ------------------------------------------
+// C'est ici que tu personnalises ton jeu.
+// Le jeu l'appelle une fois, au démarrage.
 function customize() {
-    // >>> Écris ton code ici <<<
+  // ETAPE 3.7
+
 }
